@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     padding: 0;
@@ -107,4 +109,41 @@ nav ul li a:active {
 
 .clicked{
     color: purple; /* Change color for visited links */
+}
+.block {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+.First-block{
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    
+}
+.float-left {
+    float: left;
+    margin-right: 15px;
+    
+}
+.float-right {
+    float: right;
+    margin-left: 15px;
+   
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    
+    
+}
+.images{
+display: inline-block;
+margin-left: 500px;
+}
+
+#img1{
+    height: auto;
+    width: 200px;
 }
